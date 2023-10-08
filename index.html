@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .pricing-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 900px;
+        }
+
+        .pricing-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .pricing-card h2 {
+            color: #333;
+        }
+
+        .price {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #007BFF;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            margin: 8px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Pricing Card</title>
+</head>
+<body>
+
+<div class="pricing-container">
+    <!-- Pricing Card 1 -->
+    <div class="pricing-card">
+        <h2>Basic Plan</h2>
+        <div class="price">$19.99/month</div>
+        <ul class="feature-list">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+
+    <!-- Pricing Card 2 -->
+    <div class="pricing-card">
+        <h2>Standard Plan</h2>
+        <div class="price">$29.99/month</div>
+        <ul class="feature-list">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+
+    <!-- Pricing Card 3 -->
+    <div class="pricing-card">
+        <h2>Premium Plan</h2>
+        <div class="price">$49.99/month</div>
+        <ul class="feature-list">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+</div>
+
+</body>
+</html>
